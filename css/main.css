@@ -100,6 +100,26 @@ button:hover {
   background-color: var(--second-color);
 }
 /* end framework */
+
+/* strat scroll to top */
+.scroll-to-top {
+  position: fixed;
+  background-color: var(--main-color);
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  bottom: 20px;
+  right: -50px;
+  z-index: 100;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+.scroll-to-top.show {
+  right: 20px;
+}
+/* end scroll to top */
+
 /* start header */
 header {
   position: absolute;
